@@ -1,9 +1,5 @@
-from selenium.webdriver.common.by import By
-
 from .base_page import BasePage
-from .locators import LoginPageLocators, MainPageLocators, ProductPageLocators
-
-
+from .locators import ProductPageLocators
 
 
 class ProductPage(BasePage):
@@ -27,13 +23,10 @@ class ProductPage(BasePage):
         assert self.is_not_element_present(*ProductPageLocators.SUCCESS_MESSAGE), \
             "Сообщение появилось, верно"
 
-
     def should_disappeared(self):
         assert self.is_not_element_present(*ProductPageLocators.SUCCESS_MESSAGE), \
             "Сообщение не появилось, верно"
 
-
     def disappeared_after_adding(self):
         assert self.is_disappeared(*ProductPageLocators.SUCCESS_MESSAGE), \
             "Сообщение не исчезло, верно"
-
