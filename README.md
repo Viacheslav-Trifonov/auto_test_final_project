@@ -1,2 +1,2 @@
-# auto_test_final_project
+# Финальный проект курса по автотестированию с помощью Selenium
 Напиcание тестов с помощью паттерна Page Object Model/.
