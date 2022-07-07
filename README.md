@@ -11,11 +11,11 @@
 
 Инструкция по установке:
 
-Скачайте с сайта https://sites.google.com/chromium.org/driver/ драйвер для вашей версии браузера. Разархивируйте скачанный файл.
+- Скачайте с сайта https://sites.google.com/chromium.org/driver/ драйвер для вашей версии браузера. Разархивируйте скачанный файл.
 
-Создайте на диске C: папку chromedriver и положите разархивированный ранее файл chromedriver.exe в папку C:\chromedriver.
+- Создайте на диске C: папку chromedriver и положите разархивированный ранее файл chromedriver.exe в папку C:\chromedriver.
 
-Добавьте в системную переменную PATH папку C:\chromedriver. Как это сделать в разных версиях Windows, описано здесь: https://www.computerhope.com/issues/ch000549.htm.
+- Добавьте в системную переменную PATH папку C:\chromedriver. Как это сделать в разных версиях Windows, описано здесь: https://www.computerhope.com/issues/ch000549.htm.
 
 Также в этом проекте используется библиотека Pytest.
 
